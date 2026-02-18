@@ -1,4 +1,4 @@
-# Mystique-FMCG-Supply-Chain-Planning
+# Mystique-FMCG-Supply-Chain-Analysis
 End-to-end supply chain analytics for an FMCG company operating in Bangladesh. Covers warehouse network design, vehicle routing, inventory optimisation, and demand forecasting across a 2-warehouse, 50-distribution-house network.
 
 ---
@@ -98,6 +98,12 @@ Classical inventory theory applied per distribution house. Parameters vary by de
 
 **System-wide:** ~2,100 units total safety stock; ~৳2.2M annual inventory cost; 0 DHs exceeding storage capacity.
 
+
+<img width="1789" height="1180" alt="image" src="https://github.com/user-attachments/assets/69754325-f76e-4260-bdd3-ef822e8cffcf" />
+
+
+
+
 ---
 
 ### 4. Demand Forecasting
@@ -113,6 +119,11 @@ Three time-series models were evaluated on a 25-day training / 5-day test split 
 Each DH is assigned its individually best-performing model (by MAE). The best model per DH is then used to generate a **7-day forward forecast**, which feeds directly into the inventory reorder schedule.
 
 All three models produce comparable MAPE (~8–9%) on this dataset. A longer history would enable seasonal decomposition; flagged as a follow-up.
+
+
+<img width="1790" height="1181" alt="image" src="https://github.com/user-attachments/assets/210a3cc1-f955-4afe-b9b0-5baabe5e591e" />
+
+
 
 ---
 
@@ -150,3 +161,6 @@ No external routing libraries used — heuristic implemented from scratch to kee
 - **Forecasting models** are simple baselines. With 12+ months of history, Holt-Winters or SARIMA would capture seasonality.
 - **Road distances** are pre-computed and static. Dynamic routing accounting for traffic or road closures would require a live maps API.
 - **Fleet sizing** is flagged but not optimised. A formal fleet expansion cost-benefit analysis (lease vs buy, utilisation targets) would be the logical follow-on.
+
+
+Check Colab for updated analysis: https://colab.research.google.com/drive/1ME_nt-OxGp0JGC0m1P3J4DgBZeyZN7dz?usp=sharing
