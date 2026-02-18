@@ -170,7 +170,6 @@ Check Colab for updated analysis: https://colab.research.google.com/drive/1ME_nt
 
 ## Author
 
-| Field | |
 |---|---|
 | **Md Rizvee Hasan** | |
 | **https://www.linkedin.com/in/rizveehasan19/** | |
