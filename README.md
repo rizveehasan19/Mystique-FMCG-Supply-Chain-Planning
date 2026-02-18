@@ -48,6 +48,12 @@ Nearest-warehouse allocation using pre-computed road distances. Flags outliers â
 
 **Result:** W1 serves 22 DHs (1,575 units/day, 43%); W2 serves 28 DHs (2,095 units/day, 57%). Both warehouses are significantly under-utilised at current demand, leaving a capacity buffer for growth.
 
+
+<img width="1590" height="1181" alt="image" src="https://github.com/user-attachments/assets/0ef418b0-67f0-4028-9129-d89b96718299" />
+
+
+
+
 ---
 
 ### 2. Route Optimisation
