@@ -164,3 +164,14 @@ No external routing libraries used — heuristic implemented from scratch to kee
 
 
 Check Colab for updated analysis: https://colab.research.google.com/drive/1ME_nt-OxGp0JGC0m1P3J4DgBZeyZN7dz?usp=sharing
+
+
+---
+
+## Author
+
+| Field | |
+|---|---|
+| **Md Rizvee Hasan** | |
+| **https://www.linkedin.com/in/rizveehasan19/** | |
+| **rizvee.hasan19@gmail.com** | |
